@@ -1,0 +1,114 @@
+<!--  Navigation bar  -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/">Integrity Land Care, LLC</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="/">Home </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="services">Services </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="projects">Projects </a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Contact Us <span class="sr-only">(current)</span></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!--  End Navigation bar  -->
+
+<!--  Title bar  -->
+<div class="jumbotron jumbotron-fluid heading">
+    <div class="container">
+        <h1 class="font-weight-light text-center text-lg-center">Contact Us</h1>
+    </div>
+</div>
+
+<!--  main data, contact form  -->
+<div class="container">
+    <div class="row my-5">
+        <div class="col">
+        </div>
+        <div class="col my-auto text-left">
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" class="form-control" name="name" id="name" placeholder="John Smith" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" class="form-control" name="email" id="email" placeholder="name@example.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="tel">Telephone</label>
+                    <input type="tel" class="form-control" name="telephone" id="tel" placeholder="555-123-4567" required>
+                </div>
+                <div class="form-check-inline">
+                    <input class="form-check-input" type="radio" name="service-type" id="residential" value="residential" required>
+                    <label class="form-check-label" for="residential">
+                        Residential
+                    </label>
+                </div>
+                <div class="form-check-inline">
+                    <input class="form-check-input" type="radio" name="service-type" id="commercial" value="commercial">
+                    <label class="form-check-label" for="commercial">
+                        Commercial
+                    </label>
+                </div>
+                <p><br>Please let us know what type of service you need</p>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="mowing" value="checked" id="mowing">
+                    <label class="form-check-label" for="mowing">
+                        Mowing
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="fertilizing" value="checked" id="fertilizing">
+                    <label class="form-check-label" for="fertilizing">
+                        Fertilizing
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="weeds" value="checked" id="weeds">
+                    <label class="form-check-label" for="weeds">
+                        Weed Control
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="edging" value="checked" id="edging">
+                    <label class="form-check-label" for="edging">
+                        Edging
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="flower-bed" value="checked" id="flower-bed">
+                    <label class="form-check-label" for="flower-bed">
+                        Flower bed Maintenance
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="hardscape" value="checked" id="hardscape">
+                    <label class="form-check-label" for="hardscape">
+                        Hardscape Installation or Pressure Washing
+                    </label>
+                </div>
+                <div class="form-group"><br>
+                    <label for="FormControlTextarea">Comments</label>
+                    <textarea class="form-control" name="comments" id="FormControlTextarea" rows="3"></textarea>
+                </div>
+                <div class="col-auto text-center">
+                    <button type="submit" class="btn btn-primary mb-2" id="contactSubmit">Submit</button>
+                </div>
+            </form>
+        </div>
+        <div class="col">
+        </div>
+    </div>
+</div>
